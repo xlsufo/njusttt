@@ -14,14 +14,14 @@ A LaTeX thesis template for Nanjing University of Science & Technology
 
 ## 注意事项
 
-1. 本模板对Overleaf极为友好，编译时需要将compiler设置为XeLaTeX。
+1. 本模板对Overleaf极为友好，编译时只需要将compiler设置为XeLaTeX。
 2. 如果出现 `Package fontspec Warning: Font "FandolSong-Regular" does not contain requested Script "CJK"`的类似警告，需要手动指定当前操作系统中的CTeX默认字库（如Linux或Overleaf）。例如，在 `njusttt.cls`中设置 `fontset=ubuntu或windows`：
    ```
    \LoadClass[a4paper,zihao=-4,UTF8,fontset=ubuntu]{ctexbook}
    ```
 
    正常情况下，该警告不影响生成效果，可以直接忽略。
-3. 在TeX live环境下，可能会遇到\bibliography报错的情况，需要把编译链中的bibtex换成biber，具体可参考[Issue#1](https://github.com/pasteller/njusttt/issues/2#issue-2511395379)。
+3. 在TeX live环境下，可能会遇到\bibliography报错的情况，需要把编译链中的bibtex换成biber，具体可参考[Issue#2](https://github.com/pasteller/njusttt/issues/2#issue-2511395379)。
 
 ## 致谢
 
